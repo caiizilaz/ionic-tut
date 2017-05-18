@@ -1,0 +1,13 @@
+page-add-review {
+    ion-input, ion-select, ion-textarea {
+        background-color: #f2f2f2;
+        padding: 5px 10px;
+    }
+    ion-label {
+      margin-left: 10px !important;
+    }
+
+    .range-knob {
+        background: black !important;
+    }
+}

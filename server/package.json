@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"mongod\" \"nodemon server\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.3",
+    "del": "^2.2.2",
+    "express": "^4.15.3",
+    "http": "0.0.0",
+    "method-override": "^2.3.8",
+    "mongoose": "^4.9.9",
+    "morgan": "^1.8.1",
+    "superlogin": "^0.6.1"
+  },
+  "devDependencies": {
+    "concurrently": "^3.4.0",
+    "nodemon": "^1.11.0"
+  }
+}
